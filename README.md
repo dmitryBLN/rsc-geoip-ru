@@ -1,2 +1,2 @@
 # scr-geoip-ru
-Auto generating .scr file with geoIP RU-zone for MikroTik 
+Auto generating .rsc file with geoIP RU-zone for MikroTik 
