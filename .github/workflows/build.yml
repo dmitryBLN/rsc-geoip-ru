@@ -1,0 +1,53 @@
+name: Build geoip-ru rsc
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download upstream list
+        run: |
+          curl -sSfL --retry 5 --retry-delay 10 -o source.txt \
+            https://raw.githubusercontent.com/ipverse/country-ip-blocks/master/country/ru/ipv4-aggregated.txt
+
+      - name: Generate geoip-ru.rsc
+        run: |
+          mkdir -p dist
+          {
+            printf '# Auto-generated %s from ipverse/country-ip-blocks\n' "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            printf '/ip firewall address-list remove [find list=geoip-ru comment=geoip-ru-auto]\n'
+            printf '/ip firewall address-list\n'
+            awk 'NF && $1 !~ /^#/ {
+              print "add list=geoip-ru address=" $1 " comment=geoip-ru-auto"
+            }' source.txt
+          } > dist/geoip-ru.rsc
+
+      - name: Sanity check
+        run: |
+          n=$(grep -c '^add ' dist/geoip-ru.rsc)
+          echo "add lines: $n"
+          if [ "$n" -lt 1000 ] || [ "$n" -gt 30000 ]; then
+            echo "::error::Unexpected line count: $n"
+            exit 1
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/geoip-ru.rsc
+          if git diff --quiet --cached; then
+            echo "No changes"
+          else
+            git commit -m "chore: update geoip-ru.rsc ($(date -u +%Y-%m-%d))"
+            git push
+          fi
