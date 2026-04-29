@@ -1,4 +1,4 @@
-# Auto-generated 2026-04-28T05:23:34Z from ipverse/country-ip-blocks
+# Auto-generated 2026-04-29T05:19:35Z from ipverse/country-ip-blocks
 /ip firewall address-list remove [find list=geoip-ru comment=geoip-ru-auto]
 /ip firewall address-list
 add list=geoip-ru address=2.56.24.0/22 comment=geoip-ru-auto
@@ -65,7 +65,9 @@ add list=geoip-ru address=5.42.215.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=5.43.128.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=5.43.240.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=5.44.0.0/20 comment=geoip-ru-auto
-add list=geoip-ru address=5.44.40.0/21 comment=geoip-ru-auto
+add list=geoip-ru address=5.44.40.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=5.44.45.0/24 comment=geoip-ru-auto
+add list=geoip-ru address=5.44.46.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=5.44.48.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=5.44.168.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=5.45.192.0/18 comment=geoip-ru-auto
@@ -669,7 +671,8 @@ add list=geoip-ru address=45.128.206.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=45.129.76.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=45.129.142.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=45.129.152.0/22 comment=geoip-ru-auto
-add list=geoip-ru address=45.129.184.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=45.129.184.0/23 comment=geoip-ru-auto
+add list=geoip-ru address=45.129.187.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=45.129.200.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.130.8.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.130.40.0/22 comment=geoip-ru-auto
@@ -784,6 +787,7 @@ add list=geoip-ru address=45.153.196.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.154.0.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.154.184.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.155.6.0/24 comment=geoip-ru-auto
+add list=geoip-ru address=45.155.60.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=45.155.92.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.155.104.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=45.155.144.0/22 comment=geoip-ru-auto
@@ -4337,7 +4341,9 @@ add list=geoip-ru address=109.237.0.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=109.237.96.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=109.237.144.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=109.237.224.0/20 comment=geoip-ru-auto
-add list=geoip-ru address=109.238.80.0/20 comment=geoip-ru-auto
+add list=geoip-ru address=109.238.80.0/21 comment=geoip-ru-auto
+add list=geoip-ru address=109.238.88.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=109.238.92.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=109.238.96.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=109.238.192.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=109.238.240.0/20 comment=geoip-ru-auto
@@ -4409,6 +4415,7 @@ add list=geoip-ru address=136.234.112.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=136.234.120.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=136.234.124.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=136.234.126.0/24 comment=geoip-ru-auto
+add list=geoip-ru address=138.16.224.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=139.28.52.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=139.28.72.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=139.28.168.0/22 comment=geoip-ru-auto
@@ -4507,6 +4514,8 @@ add list=geoip-ru address=152.89.108.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.132.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.196.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.216.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=153.80.172.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=153.80.176.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.180.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.184.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.224.0/19 comment=geoip-ru-auto
@@ -4956,9 +4965,7 @@ add list=geoip-ru address=178.215.144.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=178.215.232.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=178.216.64.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=178.216.96.0/21 comment=geoip-ru-auto
-add list=geoip-ru address=178.216.121.0/24 comment=geoip-ru-auto
-add list=geoip-ru address=178.216.122.0/24 comment=geoip-ru-auto
-add list=geoip-ru address=178.216.124.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=178.216.120.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=178.216.152.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=178.216.160.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=178.216.172.0/23 comment=geoip-ru-auto
@@ -7672,6 +7679,7 @@ add list=geoip-ru address=195.35.116.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=195.38.23.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=195.38.32.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=195.39.206.0/23 comment=geoip-ru-auto
+add list=geoip-ru address=195.39.210.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=195.39.228.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=195.39.248.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=195.42.64.0/19 comment=geoip-ru-auto
