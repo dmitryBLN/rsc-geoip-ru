@@ -1,4 +1,4 @@
-# Auto-generated 2026-05-18T06:04:46Z from ipverse/country-ip-blocks
+# Auto-generated 2026-05-19T05:59:13Z from ipverse/country-ip-blocks
 /ip firewall address-list remove [find list=geoip-ru comment=geoip-ru-auto]
 /ip firewall address-list
 add list=geoip-ru address=2.56.24.0/22 comment=geoip-ru-auto
@@ -2759,6 +2759,7 @@ add list=geoip-ru address=91.213.104.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.109.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.113.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.114.0/24 comment=geoip-ru-auto
+add list=geoip-ru address=91.213.117.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.125.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.130.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.213.138.0/23 comment=geoip-ru-auto
@@ -3380,7 +3381,6 @@ add list=geoip-ru address=91.236.164.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.171.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.176.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.180.0/23 comment=geoip-ru-auto
-add list=geoip-ru address=91.236.183.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.196.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.200.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=91.236.204.0/23 comment=geoip-ru-auto
@@ -4521,6 +4521,7 @@ add list=geoip-ru address=152.89.108.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.132.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.196.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=152.89.216.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=153.51.32.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.172.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.176.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=153.80.224.0/19 comment=geoip-ru-auto
@@ -4573,6 +4574,7 @@ add list=geoip-ru address=159.255.64.0/18 comment=geoip-ru-auto
 add list=geoip-ru address=160.20.156.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=161.104.16.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=161.104.32.0/19 comment=geoip-ru-auto
+add list=geoip-ru address=161.104.88.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=161.104.96.0/20 comment=geoip-ru-auto
 add list=geoip-ru address=164.40.232.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=164.138.32.0/21 comment=geoip-ru-auto
@@ -6255,6 +6257,7 @@ add list=geoip-ru address=185.231.232.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=185.231.244.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.232.16.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.232.28.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=185.232.47.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=185.232.60.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.232.104.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.232.136.0/22 comment=geoip-ru-auto
@@ -6944,6 +6947,7 @@ add list=geoip-ru address=193.138.128.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=193.138.148.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=193.138.176.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=193.138.232.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=193.141.53.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=193.141.230.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=193.142.20.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=193.142.30.0/23 comment=geoip-ru-auto
@@ -8136,6 +8140,7 @@ add list=geoip-ru address=212.15.96.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=212.16.0.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=212.16.192.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=212.17.0.0/19 comment=geoip-ru-auto
+add list=geoip-ru address=212.18.96.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=212.18.117.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=212.18.118.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=212.19.0.0/19 comment=geoip-ru-auto
