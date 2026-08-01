@@ -1,4 +1,4 @@
-# Auto-generated 2026-07-31T05:25:59Z from ipverse/country-ip-blocks
+# Auto-generated 2026-08-01T05:18:48Z from ipverse/country-ip-blocks
 /ip firewall address-list remove [find list=geoip-ru comment=geoip-ru-auto]
 /ip firewall address-list
 add list=geoip-ru address=2.56.24.0/22 comment=geoip-ru-auto
@@ -4950,6 +4950,7 @@ add list=geoip-ru address=178.170.229.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=178.170.242.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=178.171.0.0/17 comment=geoip-ru-auto
 add list=geoip-ru address=178.173.0.0/17 comment=geoip-ru-auto
+add list=geoip-ru address=178.175.168.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=178.176.0.0/14 comment=geoip-ru-auto
 add list=geoip-ru address=178.184.0.0/14 comment=geoip-ru-auto
 add list=geoip-ru address=178.204.0.0/14 comment=geoip-ru-auto
