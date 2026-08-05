@@ -1,4 +1,4 @@
-# Auto-generated 2026-08-04T04:54:14Z from ipverse/country-ip-blocks
+# Auto-generated 2026-08-05T04:55:43Z from ipverse/country-ip-blocks
 /ip firewall address-list remove [find list=geoip-ru comment=geoip-ru-auto]
 /ip firewall address-list
 add list=geoip-ru address=2.56.24.0/22 comment=geoip-ru-auto
@@ -3608,6 +3608,7 @@ add list=geoip-ru address=92.42.8.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.24.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.40.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.88.0/21 comment=geoip-ru-auto
+add list=geoip-ru address=92.42.96.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.128.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.160.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=92.42.208.0/21 comment=geoip-ru-auto
@@ -5929,6 +5930,7 @@ add list=geoip-ru address=185.156.0.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.156.72.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.156.176.0/21 comment=geoip-ru-auto
 add list=geoip-ru address=185.157.96.0/22 comment=geoip-ru-auto
+add list=geoip-ru address=185.157.120.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=185.157.124.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.157.188.0/22 comment=geoip-ru-auto
 add list=geoip-ru address=185.157.252.0/22 comment=geoip-ru-auto
@@ -7663,6 +7665,7 @@ add list=geoip-ru address=195.8.56.0/23 comment=geoip-ru-auto
 add list=geoip-ru address=195.9.0.0/16 comment=geoip-ru-auto
 add list=geoip-ru address=195.10.193.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=195.10.198.0/24 comment=geoip-ru-auto
+add list=geoip-ru address=195.10.205.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=195.10.214.0/24 comment=geoip-ru-auto
 add list=geoip-ru address=195.12.64.0/19 comment=geoip-ru-auto
 add list=geoip-ru address=195.13.50.0/24 comment=geoip-ru-auto
